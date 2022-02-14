@@ -25,3 +25,7 @@
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
 [GIN-debug] Listening and serving HTTP on :8080
+::1 - [14 Feb 22 18:32 IST] PUT /user/620a51a3b45d909ec7bbb0f6 400 787.1µs 
+::1 - [14 Feb 22 18:32 IST] PUT /user/620a51a3b45d909ec7bbb0f6 200 109.5429ms 
+::1 - [14 Feb 22 18:32 IST] PUT /user/620a51a3b45d909ec7bbb0f6 200 93.3282ms 
+::1 - [14 Feb 22 18:33 IST] PUT /user/620a51a3b45d909ec7bbb0f6 200 95.471ms 
