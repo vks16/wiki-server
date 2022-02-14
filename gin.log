@@ -1,0 +1,27 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] Loaded HTML Templates (4): 
+	- index.html
+	- 
+	- footer.html
+	- header.html
+
+[GIN-debug] POST   /login                    --> example/wiki-server/controller.Login (4 handlers)
+[GIN-debug] GET    /logout                   --> example/wiki-server/controller.Logout (4 handlers)
+[GIN-debug] GET    /api/videos               --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /api/videos               --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /api/test                 --> main.main.func3 (5 handlers)
+[GIN-debug] GET    /view/videos              --> example/wiki-server/controller.VideoController.ShowAll-fm (4 handlers)
+[GIN-debug] GET    /user/test                --> example/wiki-server/routes.UserRoute.func1 (5 handlers)
+[GIN-debug] POST   /user/all                 --> example/wiki-server/controller.FindAll.func1 (5 handlers)
+[GIN-debug] GET    /user/:userId             --> example/wiki-server/controller.GetAUser.func1 (5 handlers)
+[GIN-debug] POST   /user/create              --> example/wiki-server/controller.CreateUser.func1 (5 handlers)
+[GIN-debug] PUT    /user/:userId             --> example/wiki-server/controller.EditAUser.func1 (5 handlers)
+[GIN-debug] DELETE /user/:userId             --> example/wiki-server/controller.DeleteAUser.func1 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
